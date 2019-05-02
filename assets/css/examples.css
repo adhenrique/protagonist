@@ -1,0 +1,70 @@
+.register-background {
+  background-image: url("../img/landscape.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.register-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.register-background .container {
+  margin-top: 8%;
+  position: relative;
+  z-index: 3;
+}
+
+.register-footer {
+  bottom: 20px;
+  color: #fff;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.register-footer .fa-heart {
+  color: #EB5E28;
+}
+
+.register-card {
+  background-color: #f3f3f3;
+ background-image: url(../img/backp.png); background-position:  bottom; background-size: 100% 20%; background-repeat: no-repeat; border-radius: 25px;
+  color: #fff;
+  max-width: 350px;
+  margin: 20px 0 70px;
+  min-height: 400px;
+  padding: 30px;
+}
+
+.register-card label {
+  margin-top: 15px;
+}
+
+.register-card .title {
+  color: #000;
+  text-align: center;
+}
+
+.register-card .btn {
+  margin-top: 30px;
+}
+
+.register-card .forgot {
+ text-align: center;
+ margin-top:15px;}
+
+ .btn.btn-login{background-color:#0c9b5d; color:#fff; box-sizing: border-box;
+  border-width: 2px;border-color: #0c9b5d;}.btn.btn-login:hover{background-color:transparent; color:#0c9b5d; box-sizing: border-box;
+  border-width: 2px;border-color: #0c9b5d;}
