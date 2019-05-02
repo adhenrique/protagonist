@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style>
-
+  @import "./assets/css/bootstrap.css";
+  @import "./assets/css/ct-paper.css";
+  @import "./assets/css/examples.css";
 </style>

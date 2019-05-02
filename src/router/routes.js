@@ -7,4 +7,12 @@ export const routes = [
             icon: 'home',
         }
     },
+    {
+        path: '/login',
+        name: 'login',
+        component: () => import(/* webpackChunkName: "login" */ './../view/Login'),
+        meta: {
+            icon: 'home',
+        }
+    },
 ];
